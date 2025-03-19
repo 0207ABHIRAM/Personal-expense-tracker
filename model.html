@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+
+        <!-- Currency Selection -->
+        <label for="currency">Select Currency:</label>
+        <select id="currency" onchange="switchCurrency()">
+            <option value="₹">₹ (Rupees)</option>
+            <option value="$">$ (US Dollars)</option>
+            <option value="€">€ (Euros)</option>
+        </select>
+
+        <h2>Actions</h2>
+        <button onclick="showSection('addExpenseSection')">Add Expense</button>
+        <button onclick="showSection('viewExpensesSection')">View Expenses</button>
+        <button onclick="downloadCSV()">Download report</button>
+
+        <!-- Add Expense Section (Hidden by Default) -->
+        <div id="addExpenseSection" class="section" style="display: none;">
+            <h2>Add Expense</h2>
+            <input type="date" id="date">
+            <input type="text" id="category" placeholder="Category (Food, Travel, Bills)">
+            <input type="number" id="amount" placeholder="Amount">
+            <button onclick="addExpense()">Submit</button>
+        </div>
+
+        <!-- View Expenses Section (Hidden by Default) -->
+        <!-- View Expenses Section -->
+<div id="viewExpensesSection" class="section" style="display: none;">
+    <h2>Expense List</h2>
+    <ul id="expenseList"></ul>
+    <h3>Total: <span id="totalAmount">0</span></h3>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
