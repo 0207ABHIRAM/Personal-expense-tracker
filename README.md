@@ -86,7 +86,7 @@ Click "Download CSV" to save all expenses in a spreadsheet-compatible format.
 
 📞 Contact & Support
 For issues or feature requests, open a GitHub issue or contact:
-🌍 GitHub: https://github.com//expense-tracker
+🌍 GitHub: https://github.com/0207ABHIRAM
 
 📜 License
 This project is open-source under the MIT License. Feel free to modify and distribute it. 🚀
