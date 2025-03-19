@@ -19,7 +19,7 @@ Expense-Tracker/ │── index.html         # Main HTML file
 
 🛠 Installation & Setup
 
- 1. Clone the Repository: git clone https://github.com/your-repo/expense-tracker.git
+ 1. Clone the Repository: git clone https://github.com/0207ABHIRAM/Personal-expense-tracker.git
                           cd expense-tracker
  2. Open in Browser
  
